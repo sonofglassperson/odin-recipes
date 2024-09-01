@@ -1,0 +1,24 @@
+body h1,
+body a{
+    text-align: center;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+div.main{
+    width: 50%; /* Set a width 50% of parent element */
+    margin: 0 auto; /* Horizontally center the div - margin 0 top & bottom, margin left & right auto calculated based on space left after 50% width has been ocupied*/
+}
+
+img.lasagna,
+img.salmon {
+    width: 500px;
+    height: auto;
+}
